@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { Button } from "@/components/ui/button";
+
 export default function NotFound() {
   return (
     <main className="bg-background min-h-screen">
@@ -7,10 +9,11 @@ export default function NotFound() {
         <div className="rounded-lg border p-8 text-center">
           <h1 className="text-3xl font-bold">Paste Not Found</h1>
           <p className="text-muted-foreground mt-2">
-            The paste you're looking for doesn't exist or has been deleted.
+            The paste you&apos;re looking for doesn&apos;t exist or has been
+            deleted.
           </p>
           <Link href="/" className="mt-6 inline-block">
-            <button>Go Home</button>
+            <Button>Go Home</Button>
           </Link>
         </div>
       </div>
