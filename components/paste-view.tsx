@@ -92,10 +92,15 @@ export function PasteView({ paste }: PasteViewProps) {
                     {formatDate(paste.expires_at)}
                   </div>
                 )}
-                {viewsRemaining !== null && (
+                {viewsRemaining !== null ? (
                   <div>
                     <span className="font-medium">Views remaining:</span>{" "}
                     {viewsRemaining}
+                  </div>
+                ) : (
+                  <div>
+                    <span className="font-medium">Views count:</span>{" "}
+                    {paste.view_count}
                   </div>
                 )}
               </div>

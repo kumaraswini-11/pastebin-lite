@@ -99,9 +99,8 @@ Returns the health status of the application.
 {
   "timestamp": "2025-01-04T12:00:00Z",
   "uptime": 1234,
-  "status": "ok",
+  "status": "ok"
 }
-
 ```
 
 ---
@@ -165,13 +164,7 @@ Retrieves a paste and increments its view count.
 
 ## Environment Variables
 
-The following environment variables are required (automatically configured via Supabase integration):
-
-```
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-```
+check the `env.example` file for the required environment variables.
 
 ## Setup Instructions
 
