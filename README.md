@@ -97,8 +97,11 @@ Returns the health status of the application.
 
 ```json
 {
-  "status": "ok"
+  "timestamp": "2025-01-04T12:00:00Z",
+  "uptime": 1234,
+  "status": "ok",
 }
+
 ```
 
 ---
