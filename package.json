@@ -6,9 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prettier:check": "bunx prettier@latest --check .",
+    "prettier:fix": "bunx prettier@latest --write ."
   },
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
@@ -21,6 +25,11 @@
     "babel-plugin-react-compiler": "1.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
