@@ -2,6 +2,8 @@
 
 A modern, lightweight pastebin application built with Next.js 16 and Supabase. Share text snippets with optional expiration times and view limits.
 
+> Demo - <https://drive.google.com/file/d/1m98nl6QIkDubboI4Dk4MRDhOyyOiletx/view?usp=drive_link>
+
 ## Features
 
 - **Create Pastes**: Share text snippets with unique URLs
@@ -32,7 +34,7 @@ This project follows best practices including:
 
 ## Project Structure
 
-```
+```bash
 .
 ├── app/
 │   ├── api/
